@@ -15,7 +15,7 @@ void start(){
 }
 
 void finish(){
-  digitalWrite(1, LOW); // LED off <--> Action end
+  digitalWrite(LED_PIN, LOW); // LED off <--> Action end
   for(;;){ /*Infinite loop to disconnect device*/ }
 }
 
